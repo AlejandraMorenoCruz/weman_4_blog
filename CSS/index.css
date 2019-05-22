@@ -1,0 +1,15 @@
+body{
+
+  background-image: linear-gradient(to bottom right, #ddd,#fff);
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  display:flex;
+  height: 10%
+  /*text-align:center;
+  justify-content: center;*/
+  font-family:lato;
+}
