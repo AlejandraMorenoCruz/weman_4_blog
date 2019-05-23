@@ -1,15 +1,25 @@
 body{
 
-  background-image: linear-gradient(to bottom right, #ddd,#fff);
+  background-image: linear-gradient(to bottom right, #ece9e9,#fff);
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
+  margin: 0px;
 }
 
 nav {
   display:flex;
-  height: 10%
+  height: 100px;
+  font-family: lato, sans-serif;
   /*text-align:center;
   justify-content: center;*/
   font-family:lato;
+  align-items:center;
+  background: linear-gradient(to bottom, #ee9ca7, #ffdde1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.nota{
+  padding: 2%;
+  margin: 2%;
+  background-color: #eadfdf;
 }
