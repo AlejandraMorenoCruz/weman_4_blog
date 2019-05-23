@@ -10,16 +10,39 @@ body{
 nav {
   display:flex;
   height: 100px;
+  padding-right: 30px;
   font-family: lato, sans-serif;
-  /*text-align:center;
-  justify-content: center;*/
-  font-family:lato;
   align-items:center;
+  justify-content: space-between;
   background: linear-gradient(to bottom, #ee9ca7, #ffdde1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
+.icons {
+  display: flex;
+   justify-content: right;
+ }
+.icons a{
+   padding: 20%;
+ }
+.principal{
+  display: flex;
+  align-items:left;
+}
+.principal a{
+    text-decoration:none;
+}
 .nota{
   padding: 2%;
   margin: 2%;
   background-color: #eadfdf;
+  display: flex;
+  justify-content: right;
+  padding: 30px; 
+}
+.nota h2{
+  font-family: lato, sans-serif;
+  font-size: 30px;
+  color: #ff9999;
+}
+.firma{
+  text-align: right;
 }
